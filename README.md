@@ -1,7 +1,7 @@
-1.`npm install tailwindcss`
+### Small tailwind project
 
-2.`npm install autoprefixer postcss-cli watch`
+1.`npm install`
 
-3.`npx tailwindcss init`
+2.`npm run build`
 
-4.`make postcss.config.js` and add `module.exports = {   plugins: [ require('tailwindcss'),require('autoprefixer'),]}`
+3.`serve build/index.html`
